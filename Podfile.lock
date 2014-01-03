@@ -1,22 +1,4 @@
 PODS:
-  - AFNetworking (2.0.3):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-    - AFNetworking/UIKit
-  - AFNetworking/NSURLConnection (2.0.3):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.0.3):
-    - AFNetworking/NSURLConnection
-  - AFNetworking/Reachability (2.0.3)
-  - AFNetworking/Security (2.0.3)
-  - AFNetworking/Serialization (2.0.3)
-  - AFNetworking/UIKit (2.0.3):
-    - AFNetworking/NSURLConnection
   - encrypted-core-data (0.1):
     - OpenSSL
     - SQLCipher
@@ -30,7 +12,6 @@ PODS:
   - SQLCipher/standard (3.0.1)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.0.3)
   - encrypted-core-data (from `https://gist.github.com/undancer/8214825/raw/f65a7115c29eba20f1172faa9e86d22a20d84fcd/encrypted-core-data.podspec`)
 
 EXTERNAL SOURCES:
@@ -38,9 +19,8 @@ EXTERNAL SOURCES:
     :podspec: https://gist.github.com/undancer/8214825/raw/f65a7115c29eba20f1172faa9e86d22a20d84fcd/encrypted-core-data.podspec
 
 SPEC CHECKSUMS:
-  AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
   encrypted-core-data: 0f3c298c5fc5c62b251e1c2ba0c59f67f02d20b0
   OpenSSL: 72cccf15e5d2c0b9b8a1160f5f3ec7a3d2761310
-  SQLCipher: f9d1f434ad87ecbb1200e494d9244b069969ebc8
+  SQLCipher: 006f125d9b85e32ee6242b41adb68f0f5cbc4aa9
 
 COCOAPODS: 0.29.0

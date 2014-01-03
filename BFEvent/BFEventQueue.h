@@ -4,22 +4,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BFCommon.h"
 
-@class BFEventQueue;
+@interface BFEventQueue : NSObject
 
+- (NSUInteger)count;
 
-@interface BFEvent : NSObject {
-    double unsentSessionLength;
-    NSTimer *timer;
-    double lastTime;
-    BOOL isSuspended;
-    BFEventQueue *eventQueue;
-}
-
-+ (instancetype)sharedInstance;
-
-- (void)start:(NSString *)appKey withHost:(NSString *)appHost;
+- (NSString *)events;
 
 - (void)recordEvent:(NSString *)key count:(int)count;
 
@@ -28,4 +18,5 @@
 - (void)recordEvent:(NSString *)key segmentation:(NSDictionary *)segmentation count:(int)count;
 
 - (void)recordEvent:(NSString *)key segmentation:(NSDictionary *)segmentation count:(int)count sum:(double)sum;
+
 @end

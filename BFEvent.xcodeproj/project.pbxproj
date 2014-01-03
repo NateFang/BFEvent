@@ -10,18 +10,24 @@
 		8CEBAFE74C394BD787EEE868 /* libPods-BFEvent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCCF42CD421450B8D243240 /* libPods-BFEvent.a */; };
 		E505F0BFBAEC6B9C0E1B6659 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505F51BFA5E042FE2AEB59E /* UIKit.framework */; };
 		E505F1220F3210CDAADC367E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E505FEF344CBA87A7335E2C6 /* InfoPlist.strings */; };
+		E505F1E276059B84F84C7E2B /* BFCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = E505FAD853ABB5A298741773 /* BFCommon.m */; };
 		E505F2AA22EED60967E27E75 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505FFEC2836A01540AAD333 /* CoreData.framework */; };
+		E505F44E2E19A476C688A6CA /* BFEventEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = E505F2EE23BD5F0011F0282D /* BFEventEntity.m */; };
 		E505F539D7692DF6766281C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505F60373907E590A16EA15 /* CoreGraphics.framework */; };
 		E505F54B34BD2E6A7993C52A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505FC99DEF9451FC36C8C61 /* Foundation.framework */; };
+		E505F59DE3598FFBA721B498 /* BFConnectionQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E505F75DCAF1D97CD4D53DFF /* BFConnectionQueue.m */; };
 		E505F6CB20CC4B3CF258F440 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505F51BFA5E042FE2AEB59E /* UIKit.framework */; };
 		E505F709DF9E2121CE7123AB /* BFEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E505F5677C1C53F4351564AF /* BFEvent.m */; };
 		E505F863BAE80DBB712B2AEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E505F2FCF1765DD7F94EBC87 /* InfoPlist.strings */; };
 		E505F8BE40922CA1C8E87476 /* BFEventDB.m in Sources */ = {isa = PBXBuildFile; fileRef = E505F1C5ACB7C31115DC8B12 /* BFEventDB.m */; };
 		E505F9B2D0CAB9B734968C75 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505FB22211CC7B718D0F878 /* XCTest.framework */; };
+		E505FC2109190788BA655943 /* BFEvent_OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = E505F48531042CF929B7C97A /* BFEvent_OpenUDID.m */; };
+		E505FC2F2FF8BD8B73FA4D8A /* BFDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E505FA86524FC067563D8FE9 /* BFDeviceInfo.m */; };
 		E505FD35524F31BECFBDF557 /* event.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E505F20BDD2312A86F162093 /* event.xcdatamodeld */; };
 		E505FE50322470DBCA5EB29A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E505F29760192F0F12D5181B /* AppDelegate.m */; };
 		E505FE9787FC6B591C114FFF /* BFEventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E505FBB0F1ECFE8A637A6D17 /* BFEventTests.m */; };
 		E505FF1D6FE169BDAB78C1E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505FC99DEF9451FC36C8C61 /* Foundation.framework */; };
+		E505FF233C40D2A3D9C280EB /* BFEventQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E505F3ACB058A5A36D8ECCC0 /* BFEventQueue.m */; };
 		E505FF28AFAEC3153521DDAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E505FEA695DA364D4C2BA621 /* main.m */; };
 		E505FF68D60B8A60E4EA3FC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E505F7DF44ABE3235F54C49B /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -43,23 +49,35 @@
 		E505F1C5ACB7C31115DC8B12 /* BFEventDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFEventDB.m; sourceTree = "<group>"; };
 		E505F29760192F0F12D5181B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E505F2DDBF12D7E93A16A01C /* BFEventDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFEventDB.h; sourceTree = "<group>"; };
+		E505F2EE23BD5F0011F0282D /* BFEventEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFEventEntity.m; sourceTree = "<group>"; };
+		E505F3ACB058A5A36D8ECCC0 /* BFEventQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFEventQueue.m; sourceTree = "<group>"; };
 		E505F475D80430B97B0E65D2 /* BFEvent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "BFEvent-Info.plist"; sourceTree = "<group>"; };
+		E505F48531042CF929B7C97A /* BFEvent_OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFEvent_OpenUDID.m; sourceTree = "<group>"; };
 		E505F51BFA5E042FE2AEB59E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E505F5677C1C53F4351564AF /* BFEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFEvent.m; sourceTree = "<group>"; };
 		E505F60373907E590A16EA15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E505F631392A602AB979C8D4 /* event.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = event.xcdatamodel; sourceTree = "<group>"; };
 		E505F68CF2C2FF9E5591D20F /* BFEventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFEventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E505F70CC6871851619FC37F /* BFEvent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFEvent-Prefix.pch"; sourceTree = "<group>"; };
+		E505F74344E2C5062502FADD /* BFCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCommon.h; sourceTree = "<group>"; };
+		E505F75DCAF1D97CD4D53DFF /* BFConnectionQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFConnectionQueue.m; sourceTree = "<group>"; };
+		E505F75E9D16D80C4FD43EA8 /* BFEventEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFEventEntity.h; sourceTree = "<group>"; };
 		E505F7DF44ABE3235F54C49B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E505F8103AAA99628F0FE638 /* BFEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFEvent.h; sourceTree = "<group>"; };
 		E505FA65F577C0390EE302B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E505FA86524FC067563D8FE9 /* BFDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFDeviceInfo.m; sourceTree = "<group>"; };
 		E505FABADF0E47A8E8367E44 /* BFEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E505FAD853ABB5A298741773 /* BFCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCommon.m; sourceTree = "<group>"; };
 		E505FB22211CC7B718D0F878 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E505FBB0F1ECFE8A637A6D17 /* BFEventTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFEventTests.m; sourceTree = "<group>"; };
+		E505FC2935C2EC1C86879749 /* BFDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFDeviceInfo.h; sourceTree = "<group>"; };
 		E505FC7D0440C0C6AEEB01AD /* BFEventTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "BFEventTests-Info.plist"; sourceTree = "<group>"; };
 		E505FC99DEF9451FC36C8C61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E505FD457A714D336E248F3E /* BFEventQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFEventQueue.h; sourceTree = "<group>"; };
 		E505FDACC629BB6DD9F101EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E505FE99AB805CC8DEFF2DED /* BFEvent_OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFEvent_OpenUDID.h; sourceTree = "<group>"; };
 		E505FEA695DA364D4C2BA621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E505FEC777BD91D6A5C48C18 /* BFConnectionQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFConnectionQueue.h; sourceTree = "<group>"; };
 		E505FFEC2836A01540AAD333 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -129,6 +147,8 @@
 				E505FEF344CBA87A7335E2C6 /* InfoPlist.strings */,
 				E505FEA695DA364D4C2BA621 /* main.m */,
 				E505F70CC6871851619FC37F /* BFEvent-Prefix.pch */,
+				E505F48531042CF929B7C97A /* BFEvent_OpenUDID.m */,
+				E505FE99AB805CC8DEFF2DED /* BFEvent_OpenUDID.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,6 +183,16 @@
 				E505F8103AAA99628F0FE638 /* BFEvent.h */,
 				E505F1C5ACB7C31115DC8B12 /* BFEventDB.m */,
 				E505F2DDBF12D7E93A16A01C /* BFEventDB.h */,
+				E505F3ACB058A5A36D8ECCC0 /* BFEventQueue.m */,
+				E505FD457A714D336E248F3E /* BFEventQueue.h */,
+				E505F2EE23BD5F0011F0282D /* BFEventEntity.m */,
+				E505F75E9D16D80C4FD43EA8 /* BFEventEntity.h */,
+				E505F75DCAF1D97CD4D53DFF /* BFConnectionQueue.m */,
+				E505FEC777BD91D6A5C48C18 /* BFConnectionQueue.h */,
+				E505FAD853ABB5A298741773 /* BFCommon.m */,
+				E505F74344E2C5062502FADD /* BFCommon.h */,
+				E505FA86524FC067563D8FE9 /* BFDeviceInfo.m */,
+				E505FC2935C2EC1C86879749 /* BFDeviceInfo.h */,
 			);
 			path = BFEvent;
 			sourceTree = "<group>";
@@ -304,6 +334,12 @@
 				E505FD35524F31BECFBDF557 /* event.xcdatamodeld in Sources */,
 				E505F709DF9E2121CE7123AB /* BFEvent.m in Sources */,
 				E505F8BE40922CA1C8E87476 /* BFEventDB.m in Sources */,
+				E505FF233C40D2A3D9C280EB /* BFEventQueue.m in Sources */,
+				E505F44E2E19A476C688A6CA /* BFEventEntity.m in Sources */,
+				E505F59DE3598FFBA721B498 /* BFConnectionQueue.m in Sources */,
+				E505F1E276059B84F84C7E2B /* BFCommon.m in Sources */,
+				E505FC2F2FF8BD8B73FA4D8A /* BFDeviceInfo.m in Sources */,
+				E505FC2109190788BA655943 /* BFEvent_OpenUDID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
